@@ -12,7 +12,7 @@ class ResumeAnalysis(BaseModel):
     missing_skills: List[str] = Field(description='Skills missing compared to job description')
     strengths: List[str] = Field(description='Candidate Strengths')
     weaknesses: List[str] = Field(description='Weaknesses or gaps in the resume')
-    resume_score: int = Fiele(description='ATS score from 0 to 100')
+    resume_score: int = Field(description='ATS score from 0 to 100')
     suggestions: List[str] = Field(description='Suggestions to improve resume')
 
 

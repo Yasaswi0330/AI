@@ -1,0 +1,41 @@
+Text Splitters:
+> Text Splitters are utilities in langchain to break large content into smaller chunks.
+
+> LLMs has token limit (Max token per request). To process long documents, we must split into manageable pieces
+
+Large Document -> Text Splitter -> Smaller chunks -> LLM or Vector Database
+
+"RecursiveCharacterTextSplitter"
+
+Parameters
+
+chunk_size: Maximum characters per chunk
+
+chunk_overlap: No of characters overlapping between chunks.
+
+
+
+
+
+
+
+
+
+
+--------Packages used so far (keep them into requirement.txt file      pip install -r requirements.tx)
+langchain
+langchain-core
+langchain-openai
+pypdf
+beautifulsoup4
+youtube-transcript-api
+langchain-community
+openai
+python-dotenv
+langchain-google-genai
+langchain-anthropic
+streamlit
+pydantic
+typing
+sglite3
+langchain-text-splitters
