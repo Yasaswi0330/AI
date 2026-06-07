@@ -1,6 +1,6 @@
 from typing import List
 from pydantic import BaseModel, Field
-from langchain community.document loaders import TextLoader, PyPDFLoader
+from langchain community.documentloaders import TextLoader, PyPDFLoader
 from langchain_openai import ChatOpenAI  
 from langchain_core.prompts import PromptTemplet  
 
